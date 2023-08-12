@@ -1,0 +1,28 @@
+
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+.App{
+    overflow: hidden;
+}
+.menu{
+    background: linear-gradient(-45deg,#e079fc 0%,#7c44ff 100%);
+}
+.navbar .nav-link{
+    color:#fff;
+}
+.card{
+    width: 90% !important;
+    margin:0 auto;
+}
+.info{
+    background: aqua;
+    width: 300px;
+    height: 200px;
+    transition: 1s;
+}
+.info.active{
+    transform: translateX(-110%);
+}
